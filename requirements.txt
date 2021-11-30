@@ -1,0 +1,7 @@
+torch
+tensorboardX
+opencv-python
+six
+pyyaml
+Pillow
+scipy

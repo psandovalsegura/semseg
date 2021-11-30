@@ -148,7 +148,7 @@ def main_worker(gpu, ngpus_per_node, argss):
         logger.info(args)
         logger.info("=> creating model ...")
         logger.info("Classes: {}".format(args.classes))
-        logger.info(model)
+        # logger.info(model)
     if args.distributed:
         torch.cuda.set_device(gpu)
         args.batch_size = int(args.batch_size / ngpus_per_node)
